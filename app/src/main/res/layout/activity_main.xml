@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#D3D3D3"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD CLASS"
+        android:textColor="#F44336"
+        android:layout_marginStart="150dp"
+
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <EditText
+            android:id="@+id/editNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Numéro"
+            />
+        <EditText
+            android:id="@+id/editTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Titre"
+            />
+        <EditText
+            android:id="@+id/editSession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Session"
+            />
+        <EditText
+            android:id="@+id/editProfesseur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Professeur"
+            />
+        <EditText
+            android:id="@+id/editNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Note"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        >
+        <Button
+            android:id="@+id/buttonajtmy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajout/moyenne cour"
+            />
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:hint="Le nombre de cour"
+
+
+            />
+        <TextView
+            android:id="@+id/textMoyenne"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:hint="La moyenne des cours"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH CLASS"
+        android:textColor="#F44336"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="150dp"
+
+
+
+        />
+    <EditText
+        android:id="@+id/editRecherche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="                                      Search"
+        android:layout_marginTop="340dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp"
+        >
+        <Button
+            android:id="@+id/btnsession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session"
+            />
+        <Button
+            android:id="@+id/btnnumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numéro"
+            />
+        <Button
+            android:id="@+id/btnprof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professeur"
+            />
+        <Button
+            android:id="@+id/btnmax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/textshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="470dp"
+        android:background="@color/white"
+
+        />
+
+</android.widget.RelativeLayout>
